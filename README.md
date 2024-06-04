@@ -3,6 +3,8 @@ Desarrollo de una aplicacion móvil con el uso de los controles comunes de la in
 
 ## Formulario de inscripción
 ![Formulario](despliegue/RegistroDatos.png)
+<img src="despliegue/ReggistroDatos.png" alt="Descripción de la imagen" width="150"/>
+
 
 ## Formulario de muestra de datos
 ![Formulario](despliegue/MuestraDatos.png)
