@@ -2,8 +2,7 @@
 Desarrollo de una aplicacion móvil con el uso de los controles comunes de la interfazde usuario (UI) de android. se busca replicar un formulario de inscripción de usuarios 
 
 ## Formulario de inscripción
-![Formulario](despliegue/RegistroDatos.png)
-<img src="despliegue/RegistroDatos.png" alt="Descripción de la imagen" width="150"/>
+<img src="despliegue/RegistroDatos.png" alt="Descripción de la imagen" width="400"/>
 
 
 ## Formulario de muestra de datos
