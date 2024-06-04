@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistaDatos">
+
+    <TextView
+        android:id="@+id/txtRespNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Nombre: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespDatps" />
+
+    <TextView
+        android:id="@+id/txtRespApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Apellido: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespNombre" />
+
+    <TextView
+        android:id="@+id/txtRespEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Empresa: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespApellido"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespApellido" />
+
+    <TextView
+        android:id="@+id/txtRespTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Telefono: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespEmpresa"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespEmpresa" />
+
+    <TextView
+        android:id="@+id/txtRespEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Email: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespTelefono"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespTelefono" />
+
+    <TextView
+        android:id="@+id/txtRespFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fecha de nacimiento: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespEmail" />
+
+    <TextView
+        android:id="@+id/txtRespGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Genero: "
+        app:layout_constraintStart_toStartOf="@+id/txtRespFechaNacimiento"
+        app:layout_constraintTop_toBottomOf="@+id/txtRespFechaNacimiento" />
+
+    <TextView
+        android:id="@+id/txtRespDatps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Datos"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
